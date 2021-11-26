@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src=js/login.js defer></script>
+    <script src=js/clock.js defer></script>
+    <script src=js/image.js defer></script>
+    <script src=js/quotes.js defer></script>
+    <script src=js/todo.js defer></script>
+    
+
+    <title>Momentum application</title>
+  </head>
+  
+  <body>
+    <div class="image"></div>
+    <!-- Clock Section -->
+    <h1 class='clock'></h1>
+    
+    
+    <!-- Login logic Section -->
+    <section class="login">
+      <h1 class="greeting"></h1>
+      <form class="inputForm">
+        <input
+          type="text"
+          class="username"
+          maxlength="15"
+          required
+          placeholder="Type your name."
+        />
+      </form>
+        <button class="loginBtn">LOGIN</button>
+        <button class="logoutBtn hidden">LOGOUT</button>
+    </section>
+    
+    <!-- To do list section -->
+    <section class="todopart">
+      <form>
+        <input type="text" required class="inputTodo" placeholder="What do you want to do?">
+      </form>
+      <button class="todoBtn">ADD SOMETHING</button>
+      <ul class="todolist"></ul>
+    </section>
+    
+    
+    
+  </body>
+  <!-- Random Image and quote section -->
+  <footer class="quote"></footer>
+</html>
