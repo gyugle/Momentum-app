@@ -1,0 +1,78 @@
+* {
+  font-size: 14px;
+  color: aliceblue;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: initial;
+}
+.clock {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin-top: 50px;
+}
+input {
+  padding: 8px;
+  color: black;
+}
+button {
+  padding: 8px;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 2px solid;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #9499b7;
+  color: white;
+}
+.todopart > form {
+  padding: 20px;
+}
+.login {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 8px;
+  padding-right: 30px;
+}
+.greeting {
+  padding: 8px;
+}
+.todopart {
+  list-style: none;
+  padding: 24px;
+  text-align: center;
+}
+li {
+  list-style: none;
+  padding: 8px;
+}
+li > span {
+  font-size: 16px;
+  padding: 4px;
+}
+li > button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.quote {
+  font-size: 12px;
+  padding: 24px;
+  text-align: center;
+}
+
+/* Login Option */
+.hidden {
+  display: none;
+}
