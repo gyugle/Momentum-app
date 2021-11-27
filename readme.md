@@ -4,6 +4,8 @@
 
 ## 1. 개요
 
+![layout](https://user-images.githubusercontent.com/42715840/143681262-681ad351-3bf8-492b-86c6-222f577d3eb4.png)
+
 앞선 쇼핑몰 프로젝트에 이어 JavaScript 공부를 위해 '노마더코더'의 Momentum app 강의를 보고 제작하였습니다.
 
 주요 사용 언어:
